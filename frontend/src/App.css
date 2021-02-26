@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.app__root .navbar{
+  padding: 4rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

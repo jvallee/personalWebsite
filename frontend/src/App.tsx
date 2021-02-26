@@ -16,24 +16,14 @@ function App() {
   // const [client, setClient] = useState(initialClient); // not necessary in this iteration of the project
 
   return (
-    <div>
+    <div className="app__root">
       <Router>
         <TopNav />
-        {/* <Switch>
-          <Route path="/alljobs/:id">
-            <OutReachEditorPage apiService={apiService} />
+        <Switch>
+          <Route path="/home">
+            <HomePage />
           </Route>
-          <Route path="/alljobs">
-            <AllJobsPage apiService={apiService} />
-          </Route>
-          <Route path="/">
-            <HomePage
-              client={client}
-              apiService={apiService}
-              setClient={setClient}
-            />
-          </Route>
-        </Switch> */}
+        </Switch>
       </Router>
     </div>
   );

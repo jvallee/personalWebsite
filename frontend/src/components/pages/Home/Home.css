@@ -1,5 +1,6 @@
 .homePage__root {
     margin-top: 30px;
+    text-align: center;
 }
 
 .homePage__root .loginContainer {
@@ -13,4 +14,19 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+}
+
+.profile_mage_container {
+    height: 200px;
+    border-radius: 100%;
+}
+
+.toptext {
+    padding-top: 30px;
+    padding-bottom: 30px;   
+    white-space: pre-line;
+}
+
+.welcome__image{
+    padding-top: 72px;
 }
